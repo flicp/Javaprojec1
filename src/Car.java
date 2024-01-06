@@ -4,11 +4,11 @@ public class Car {
     String color; // цвет
 
     void drive(){
-        System.out.println("drive");//
+        System.out.println(name + " drive");
     };
 
     void stop(){
-        System.out.println("stop");
+        System.out.println(" stop");
     }
 
 

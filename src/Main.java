@@ -5,9 +5,9 @@ public class Main {
         Car BMW = new Car();
 
         BMW.color = "Blue";
-        BMW.name = "BMV 5";
+        BMW.name = "BMW 5";
         BMW.model = "e39";
-        BMW.drive();//
+        BMW.drive();
 
 
 
@@ -17,13 +17,13 @@ public class Main {
         nissan.color = "black";
         nissan.name = "nissan 1";
         nissan.model = "sedan";
-        nissan.stop();
+        nissan.drive();
 
         new Car();
 
-        System.out.println(nissan.color);
-
-        System.out.println(BMW.color);
+//        System.out.println(nissan.color);
+//
+//        System.out.println(BMW.color);
 
 
     }
