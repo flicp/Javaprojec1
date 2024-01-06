@@ -4,6 +4,12 @@ public class Main {
     public static void main(String[] args) {
         Car BMW = new Car();
 
+        BMW.color = "Blue";
+        BMW.name = "BMV 5";
+        BMW.model = "e39";
+        BMW.drive();
+
+
 
 
         Car nissan = new Car();
@@ -11,6 +17,7 @@ public class Main {
         nissan.color = "black";
         nissan.name = "nissan 1";
         nissan.model = "sedan";
+        nissan.stop();
 
         new Car();
 
