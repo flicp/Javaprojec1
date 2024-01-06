@@ -4,7 +4,7 @@ public class Car {
     String color; // цвет
 
     void drive(){
-        System.out.println("drive");
+        System.out.println("drive");//
     };
 
     void stop(){
