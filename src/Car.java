@@ -3,12 +3,12 @@ public class Car {
     String model; // модель
     String color; // цвет
 
-    void drive(){
+    public void drive(){
         System.out.println(name + " drive");
     };
 
-    void stop(){
-        System.out.println(" stop");
+    public void stop(){
+        System.out.println(name + " stop");
     }
 
 

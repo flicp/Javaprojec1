@@ -21,9 +21,9 @@ public class Main {
 
         new Car();
 
-//        System.out.println(nissan.color);
-//
-//        System.out.println(BMW.color);
+        System.out.println(nissan.color);
+
+        System.out.println(BMW.color);
 
 
     }
