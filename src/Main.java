@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Car BMW = new Car();
 
-        BMW.color = "Blue";
-        BMW.name = "BMW 5";
-        BMW.model = "e39";
+        BMW.setColor("blue");
+        BMW.setName("BMW 5");
+        BMW.setModel("e39");
         BMW.drive();
 
 
@@ -14,16 +14,16 @@ public class Main {
 
         Car nissan = new Car();
 
-        nissan.color = "black";
-        nissan.name = "nissan 1";
-        nissan.model = "sedan";
+        nissan.setColor("black");
+        nissan.setName("nissan 1");
+        nissan.setModel("sedan");
         nissan.drive();
 
         new Car();
 
-        System.out.println(nissan.color);
+        System.out.println(nissan.getName() );
 
-        System.out.println(BMW.color);
+        System.out.println(BMW.getName());
 
 
     }
