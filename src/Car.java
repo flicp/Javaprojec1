@@ -4,17 +4,20 @@ public class Car {
     public Car() {
     }
 
-    public Car(String name, String model, String color) {
+    public Car(String name, String model, String color, int number) {
         this.name = name;
         this.model = model;
         this.color = color;
     }
 
+
+
     private String name; // название
     private String model; // модель
     private String color; // цвет
 
-//  int number;
+
+    //  int number;
 //  double number1;
 //  boolean flag;
 
@@ -23,7 +26,6 @@ public class Car {
         System.out.println(name + " drive");
     }
 
-    ;
 
     public String getName() {
         return name;
@@ -53,9 +55,17 @@ public class Car {
         System.out.println(name + " stop");
     }
 
-    public String showText() {
-        return "test text";
+    public int sumNambers(int d1, int d2 ){
+        if (d1 > 0) {
+            return d1 - d2;
+        }
+        else {
+            return d1 + d2;
+        }
+
     }
+
+
 
 
 }
