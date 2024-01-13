@@ -1,6 +1,22 @@
 //  все что умеет транспорт умеет и кар (доступный функционал)
 public class Car extends Transport {
 
+    public Car(String name, String model, String color) {
+        super(name, model, color);
+    }
+
+    public Car(String name, String model, String color, int number) {
+        super(name, model, color);
+        this.number = number;
+    }
+
+    public Car(int number) {
+        this.number = number;
+    }
+
+    public Car() { 
+    }
+
     private int number;
 
     public int getNumber() {

@@ -2,6 +2,15 @@
 // класс общего поведения для всех транспортов
 public class Transport {
 
+    public Transport() {
+    }
+
+    public Transport(String name, String model, String color) { 
+        this.name = name;
+        this.model = model;
+        this.color = color;
+    }
+
     // свойства/поля
     private String name; // название
     private String model; // модель
