@@ -34,13 +34,13 @@ public class Transport {
 
     // бизнес методы
     public void drive() {
-        System.out.println(name + " drive");
+        System.out.println(name + " drive transport");
     }
 
     public void stop() {
-        System.out.println(name + " stop");
+        System.out.println(name + " stop transport");
     }
-
+ 
 
 
 }

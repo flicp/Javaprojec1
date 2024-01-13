@@ -5,8 +5,8 @@ public class Main {
         Car car = new Car();
         car.setName("BMW");
         car.drive();
+        car.stop();
         car.signal();
-        car.setNumber(234);
 
 
     }
