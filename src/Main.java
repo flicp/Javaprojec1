@@ -13,7 +13,8 @@ public class Main {
 ////        car.setName("BMW");
 ////        car.drive();
 
-        Toyota toyota = new Toyota();
+        BMW bmw = new BMW();
+        bmw.drive();
 
 
     }
