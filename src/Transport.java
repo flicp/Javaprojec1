@@ -5,7 +5,7 @@ public class Transport {
     public Transport() {
     }
 
-    public Transport(String name, String model, String color) { 
+    public Transport(String name, String model, String color) {
         this.name = name;
         this.model = model;
         this.color = color;
@@ -49,7 +49,6 @@ public class Transport {
     public void stop() {
         System.out.println("stop transport");
     }
-
 
 
 }

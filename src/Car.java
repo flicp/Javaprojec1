@@ -14,7 +14,7 @@ public class Car extends Transport {
         this.number = number;
     }
 
-    public Car() { 
+    public Car() {
     }
 
     private int number;
