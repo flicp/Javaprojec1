@@ -3,19 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
+        Kawasaki kawasaki = new Kawasaki("kawasaki", "super model", "white", 5.5,2000);
+        kawasaki.jump();
 
-//        Car car = new Car("a", "b", "c", 10);
-//
-//        System.out.println("car.getColor() = " + car.getColor());
-//        System.out.println("car.getModel() = " + car.getModel());
-//        System.out.println("car.getName() = " + car.getName());
-//        System.out.println("car.getNumber() = " + car.getNumber());;
-////        car.setName("BMW");
-////        car.drive();
-
-        BMW bmw = new BMW();
-        bmw.drive();
-
+        Ural ural = new Ural("ural", "new model", "red",  5.7, true);
+        ural.showInfo();
 
     }
 }

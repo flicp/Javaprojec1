@@ -5,6 +5,7 @@ public class BMW extends Car {
     }
 
     public BMW() {
+
     }
 
     @Override
