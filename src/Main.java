@@ -3,11 +3,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        Kawasaki kawasaki = new Kawasaki("kawasaki", "super model", "white", 5.5,2000);
-        kawasaki.jump();
+        Engine engine = new Engine(10);
 
-        Ural ural = new Ural("ural", "new model", "red",  5.7, true);
-        ural.showInfo();
+        Car car = new Car(10, engine);
+        car.setEngine(engine);
+
+        System.out.println("car.getEngine().getVolume = " + car.getEngine().getVolume());
+
 
     }
 }

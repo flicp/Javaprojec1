@@ -10,14 +10,25 @@ public class Car extends Transport {
         this.number = number;
     }
 
-    public Car(int number) {
+    public Car(int number, Engine engine ) {
         this.number = number;
+        this.engine = engine;
     }
 
     public Car() {
     }
 
     private int number;
+
+    private Engine engine;
+
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
 
     public int getNumber() {
         return number;
