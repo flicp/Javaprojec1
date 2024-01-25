@@ -2,13 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Toyota toyota = new Toyota();
+        toyota.year=2000;
+        System.out.println("toyota.year = " + toyota.year);
 
-        Engine engine = new Engine(10);
-
-        Car car = new Car(10, engine);
-        car.setEngine(engine);
-
-        System.out.println("car.getEngine().getVolume = " + car.getEngine().getVolume());
+        BMW bmw = new BMW();
+        System.out.println("bmw.year = " + bmw.year);
 
 
     }

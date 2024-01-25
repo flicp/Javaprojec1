@@ -19,8 +19,10 @@ public class Car extends Transport {
     }
 
     private int number;
-
     private Engine engine;
+    public final int whellCoount = 4;
+
+
 
     public Engine getEngine() {
         return engine;

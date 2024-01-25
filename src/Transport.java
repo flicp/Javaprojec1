@@ -15,6 +15,8 @@ public class Transport {
     private String name; // название
     private String model; // модель
     private String color; // цвет
+    public static int year;
+
     public String getName() {
         return name;
     }
