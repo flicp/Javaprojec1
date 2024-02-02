@@ -1,4 +1,6 @@
-public class Ural extends Motorbike{
+package ru.flick.oop.motorbike;
+
+public class Ural extends Motorbike {
 
     public Ural() {
     }

@@ -1,3 +1,7 @@
+package ru.flick.oop.car;
+import ru.flick.oop.Transport;
+import ru.flick.oop.Engine;
+
 //  все что умеет транспорт умеет и кар (доступный функционал)
 public class Car extends Transport {
 

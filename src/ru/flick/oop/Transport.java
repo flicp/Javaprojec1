@@ -1,3 +1,4 @@
+package ru.flick.oop;
 
 // класс общего поведения для всех транспортов
 public class Transport {

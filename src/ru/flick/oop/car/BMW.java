@@ -1,3 +1,5 @@
+package ru.flick.oop.car;
+
 public class BMW extends Car {
 
     public BMW(String name, String model, String color) {
@@ -13,6 +15,6 @@ public class BMW extends Car {
 
         super.signal();
         super.drive();
-        System.out.println("drive BMW");
+        System.out.println("drive ru.flick.oop.car.BMW");
     }
 }

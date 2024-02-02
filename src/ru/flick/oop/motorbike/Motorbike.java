@@ -1,3 +1,6 @@
+package ru.flick.oop.motorbike;
+import ru.flick.oop.Transport;
+
 public class Motorbike extends Transport {
 
     public Motorbike() {

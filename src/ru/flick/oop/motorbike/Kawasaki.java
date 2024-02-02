@@ -1,4 +1,6 @@
-public class Kawasaki extends Motorbike{
+package ru.flick.oop.motorbike;
+
+public class Kawasaki extends Motorbike {
     public Kawasaki() {
     }
 
@@ -9,6 +11,6 @@ public class Kawasaki extends Motorbike{
 
 
     public void jump (){
-        System.out.println("Kawasaki jump");
+        System.out.println("ru.flick.oop.motorbike.Kawasaki jump");
     }
 }
